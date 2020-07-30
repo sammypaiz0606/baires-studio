@@ -179,7 +179,7 @@
     .bg-dark-80 *,
     .bg-dark-90 *,
     .bg-light-90 * {
-      color: rgb(12, 1, 1);
+      color: rgb(255, 255, 255);
     }
     .bg-dark-10:before,
     .bg-dark-50:before,
@@ -309,11 +309,10 @@
     -ms-animation-delay: 16s;
     animation-delay: 16s;
   }
-  
   /*
    * Parallax
    */
-   .parallax-hero {
+  .parallax-hero {
     position: fixed;
     top: 0;
     left: 0;
@@ -526,164 +525,7 @@
       }
     }
   
-    
-    
-  
-      /* a {
-    text-decoration: none;
-    -webkit-transition: all 0.4s;
-    -webkit-transition: all 0.2s;
-    transition: all 0.2s;
-    color: #000;
-  }
-  img {
-    width: 100%;
-  }
-  a:hover {
-    text-decoration: none;
-  }
-  a:focus {
-    outline: none;
-    text-decoration: none;
-  }
-  p {
-    line-height: 32px;
-  }
-  ul,
-  li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  fieldset {
-    border: 0 none;
-    margin: margin 0 auto;
-    padding: 0;
-  }
-  .no-padding {
-    padding: 0;
-  }
-  .section-padding {
-    padding: 70px 0px;
-  }
-  .section-title {
-    text-align: center;
-    margin-bottom: 60px;
-  }
-  .section-title {
-    margin-top: 0;
-    font-weight: 900;
-    text-transform: capitalize;
-    font-size: 45px;
-    color: #0393f3;
-  }
-  .section-title h2 {
-    margin-top: 0;
-    font-weight: 900;
-    text-transform: capitalize;
-    font-size: 45px;
-    color: #3c4042;
-  }
-  .section-title p {
-    font-weight: 300;
-  } */
-  
-  
-  
-  
-  
-  
-  /*
-  * ----------------------------------------------------------------------------------------
-  * 02.PRELOADER & BOUNCE CCS STYLE
-  * ----------------------------------------------------------------------------------------
-  */
-   /* .preloader {
-    display: block;
-      background-color: #f0f0f0;
-      width: 100%;
-      height: 100%;
-      position: fixed;
-      top: 0;
-      left: 0;
-      background: #fefefe;
-      z-index: 100000;
-  }
-  .loader-text {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    width: 100px;
-    height: 30px;
-    text-align: center;
-    font-size: 12px;
-    letter-spacing: 6px;
-    color: #777;
-  }
-  .mfp-preloader {
-    width: 50px !important;
-    height: 50px !important;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    top: 50% !important;
-    left: 50% !important;
-    right: 0;
-    margin: -25px 0 0 -25px;
-    font-size: 10px;
-    text-indent: -12345px;
-    border-top: 1px solid rgba(0,0,0,0.4);
-    border-right: 1px solid rgba(0,0,0,0.4);
-    border-bottom: 1px solid rgba(0,0,0,0.4);
-    border-left: 1px solid #fff;
-    -webkit-animation: spinner 700ms infinite linear;
-    -moz-animation: spinner 700ms infinite linear;
-    -o-animation: spinner 700ms infinite linear;
-    -ms-animation: spinner 700ms infinite linear;
-    animation: spinner 700ms infinite linear;
-    z-index: 100001;
-  }
-  .status-mes {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -22px 0 0 -22px;
-    font-size: 10px;
-    text-indent: -12345px;
-    border-top: 8px solid #222;
-    border-right: 8px solid #222;
-    border-bottom: 8px solid #222;
-    border-left: 8px solid #fff;
-    border-radius: 50%;
-    -webkit-animation: spinner 1000ms infinite linear;
-    animation: spinner 1000ms infinite linear;
-    z-index: 10000;
-  }
-  @-webkit-keyframes spinner {
-    0% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-    100% {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
-  }
-  @keyframes spinner {
-    0% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-    100% {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
-  }  */
-  
-    /*
+     /*
   * ----------------------------------------------------------------------------------------
   * 09.CONTACT
   * ----------------------------------------------------------------------------------------
@@ -750,7 +592,7 @@
   }
   
   .input-success {
-    border: 1px solid #0393f3;
+    border: 1px transparent;
   }
   
   .input-error {
@@ -865,7 +707,7 @@
       left: 4px;
     }
     .btn-read-more {
-      border-bottom: 1px solid #111;
+      border-bottom: 1px solid #fff;
       -webkit-border-radius: 0;
       border-radius: 0;
       color: #555;
@@ -1267,218 +1109,9 @@
       margin-top: 15px;
       float: right;
     }
-    
-
   
-  /*
-  * ----------------------------------------------------------------------------------------
-  * 03.HOMEPAGE CSS STYLE
-  * ----------------------------------------------------------------------------------------
-  */
-  
-  /* */
-  /* * ---------------------------------------------------------------------------------------- */
-  /* * 05.abilities CSS STYLE */
-  /* * ---------------------------------------------------------------------------------------- */
-  /**/
-  /* .single-service i {
-    font-size: 40px;
-    margin-bottom: 10px;
-    -webkit-transition: .3s;
-    transition: .3s;
-    background: #F5F5F5;
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    text-align: center;
-    color: #1C1C1C;
-    line-height: 80px;
-    float: left;
-    margin-right: 25px;
-    margin-bottom: 50px;
-  }
-  .single-service h2 {
-    font-size: 12px;
-    text-transform: uppercase;
-    margin: 20px 0px;
-    -webkit-transition: .3s;
-    transition: .3s;
-    color: #232323;
-    letter-spacing: 2px;
-    font-weight: 700;
-  }
-  .single-service p {
-    color: #232323;
-  }
-  #abilities img {
-    width: 50px;
-  }
-  /*
-  * ----------------------------------------------------------------------------------------
-  * 06.portfolio CSS STYLE
-  * ----------------------------------------------------------------------------------------
-  */
-  /* .work {
-    background: #FBFBFB;
-  }
-  
-  .work h2 {
-    color: #000!important;
-  }
-  
-  ul.work {
-    padding: 0;
-    list-style: none;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  ul.work li {
-    display: inline-block;
-    padding-bottom: 4px;
-    margin: 0 8px;
-    text-transform: uppercase;
-    font-size: 35px;
-    font-weight: bold;
-    color: #000;
-    border: none;
-    cursor: pointer;
-    font-size: 12px;
-    border-bottom: 2px solid transparent;
-  }
-  
-  ul.work li:hover {
-    color: #777;
-    -webkit-transition: .3s;
-    transition: .3s;
-  }
-  
-  ul.work li.active {
-    color: #777;
-  }
-  
-  .work-inner .mix {
-    display: none;
-  }
-  
-  .work .item {
-    height: 120px;
-  }
-  
-  .work .col-md-4 {
-    padding: 0;
-    margin: 0;
-  }
-  
-  .work figure.effect-ruby img {
-    height: auto;
-    width: 100%;
-    height: 230px;
-  }
-  
-  .work .grid figure {
-    position: relative;
-    float: left;
-    overflow: hidden;
-    min-width: 320px;
-    max-width: 480px;
-    max-height: 360px;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    cursor: pointer;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .work .grid figure:hover {
-    background: rgba(87, 88, 87, 0.4);
-  }
-  
-  .work figure.effect-ruby h2 {
-    margin-top: 10%;
-    opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    font-size: 30px;
-    text-transform: uppercase;
-    font-weight: 600;
-    -webkit-transition: .3s;
-    transition: .3s;
-    display: inline-block;
-    color: #fff !important;
-    font-weight: bold;
-    text-shadow: 4px 4px 4px rgba(87, 88, 87, 0.4);
-  }
-  .work figure.effect-ruby p {
-    font-size: 14px;
-    text-transform: capitalize;
-    border: none;
-    padding: 0;
-    margin: 5px 0px;
-  }
-  
-  .work figure.effect-ruby p strong {
-    font-size: 16px;
-    text-transform: uppercase;
-    margin-right: 5px;
-  }
-  
-  .work .item:hover figure.effect-ruby h2 {
-    opacity: 1;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    -webkit-transition: .3s;
-    transition: .3s;
-  }
-  
-  .work .item span {
-    margin-right: 5px;
-    opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: 600;
-    -webkit-transition: .3s;
-    transition: .3s;
-    display: inline-block;
-    color: #0393f3;
-    position: relative;
-    top: -15px;
-    z-index: 100;
-    background: rgba(0, 0, 0, 0.7);
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px double #000;
-    position: relative;
-    z-index: 200;
-    padding: 10px;
-  }
-  
-  .work .item:hover > span {
-    opacity: 1;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    -webkit-transition: .3s;
-    transition: .3s;
-    display: inline-block;
-    position: relative;
-    top: -90px;
-    color: #777;
-  }
-  
-  .work .item span:hover {
-    border: 1px solid #777;
-    background: #fff;
-  }
-  
-  .work .item span i {
-    color: #fff;
-  }
-  
-  .work .item span:hover i {
-    color: #777;
-  } 
-   */
-  
-  /* ==============================
+   
+    /* ==============================
        Navbar
        ============================== */
        .nav-logo-wrap {
@@ -2095,7 +1728,7 @@
           transform: rotate(360deg);
         }
       }
-      /* ==============================
+    /* ==============================
      Owl carousel
      ============================== */
   .owl-carousel {
@@ -2142,6 +1775,7 @@
     position: absolute;
     top: 50%;
     margin-top: -20px;
+    background: none;
   }
   .owl-prev span.angle {
     right: 40px;
@@ -2196,7 +1830,7 @@
     width: 15px;
     height: 5px;
     display: block;
-    background: rgba(255,255,255,0.9);
+    background: rgba(223, 219, 219, 0.9);
     position: relative;
     z-index: 1000 !important;
     -webkit-border-radius: 3px;
@@ -2744,9 +2378,9 @@
      ============================== */
   
      #team {
-       
-      background:#fff}
-     .filter li {
+       background:#fff}
+     
+  .filter li {
     display: inline-block;
     margin: 0 10px;
   }
@@ -2937,10 +2571,7 @@
       color: rgba(0,0,0,0.2);
       font-size: 48px;
     }
-     /* ==============================
-     Blog
-     ============================== */
-  /*
+    
    
   /* ==============================
      Portfolio page
@@ -2973,299 +2604,8 @@
   }
   
   
-      
- 
-  /*
-  * ----------------------------------------------------------------------------------------
-  * 04.ABOUT CSS STYLE
-  * ----------------------------------------------------------------------------------------
-  */
-  /* #about {
-    background: rgb(255, 255, 255);
-  }
   
-  .about-text h2 {
-    font-size: 12px;
-    text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 20px;
-    color: #0393f3;
-    letter-spacing: 2px;
-    font-weight: 700;
-  }
-  
-  .about-text p {
-    font-weight: 300;
-    margin-bottom: 30px;
-  }
-  
-  .about-text ul li {
-    width: 40%;
-    float: left;
-    margin-bottom: 25px;
-    color: #a3a3a3;
-    border-bottom: 1px dotted #ccc;
-    display: inline-block;
-    margin-right: 50px;
-    padding-bottom: 10px;
-  }
-   */
-  
-  /*
-  * ----------------------------------------------------------------------------------------
-  * 07.TESTIMONIAL CSS STYLE
-  * ----------------------------------------------------------------------------------------
-  */
- 
-  
-  
-  
-      
-  
-      
-  
-  /*
-  * ----------------------------------------------------------------------------------------
-  * 08.CONTACT CSS STYLE
-  * ----------------------------------------------------------------------------------------
-  */
- 
-  /*
-  * ----------------------------------------------------------------------------------------
-  * 17. BLOG PAGES DESIGN CSS STYLE
-  * ----------------------------------------------------------------------------------------
-  */
-  
-  
-  
- 
    
-  
-  /* ==============================
-       Portfolio
-       ============================== */
-       .filter li {
-        display: inline-block;
-        margin: 0 10px;
-      }
-      .filter li a {
-        color: #555;
-        font-size: 0.85em;
-        padding: 10px 10px;
-        letter-spacing: 3px;
-        -webkit-transition: all 0.37s cubic-bezier(0, 0, 0.58, 1);
-        -moz-transition: all 0.37s cubic-bezier(0, 0, 0.58, 1);
-        -o-transition: all 0.37s cubic-bezier(0, 0, 0.58, 1);
-        -ms-transition: all 0.37s cubic-bezier(0, 0, 0.58, 1);
-        transition: all 0.37s cubic-bezier(0, 0, 0.58, 1);
-      }
-      .filter li a:hover {
-        border-bottom: 1px solid #00b2ca;
-      }
-      .filter li.active a {
-        border-bottom: 1px solid #00b2ca;
-      }
-      .work-item {
-        text-align: center;
-        margin: 15px 0;
-      }
-      .work-item .figure {
-        overflow: hidden;
-        width: 100%;
-        position: relative;
-        cursor: pointer;
-      }
-      .work-item .figure img {
-        position: relative;
-        display: block;
-        width: 100%;
-        height: auto;
-      }
-      .work-item .figure .figcaption {
-        color: #111;
-        font-size: 1.25em;
-        -webkit-backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-        -moz-backface-visibility: hidden;
-        -ms-backface-visibility: hidden;
-        backface-visibility: hidden;
-      }
-      .work-item .figure .figcaption::before,
-      .work-item .figure .figcaption::after {
-        pointer-events: none;
-      }
-      .work-item .figure a {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      }
-      .work-item .figure a {
-        z-index: 1000;
-        text-indent: 200%;
-        white-space: nowrap;
-        font-size: 0;
-        opacity: 0;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-        filter: alpha(opacity=0);
-      }
-      .work-item .figure h5,
-      .work-item .figure p {
-        margin: 0;
-      }
-      .work-item .figure h5 {
-        padding-top: 10px;
-      }
-      .work-item .figure p {
-        padding: 5px 0;
-      }
-      .figure.effect-hover img {
-        -webkit-transition: -webkit-transform 0.35s, opacity 0.35s;
-        -moz-transition: -moz-transform 0.35s, opacity 0.35s;
-        -o-transition: -o-transform 0.35s, opacity 0.35s;
-        -ms-transition: -ms-transform 0.35s, opacity 0.35s;
-        transition: transform 0.35s, opacity 0.35s;
-      }
-      .figure.effect-hover .figcaption {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        opacity: 0.5;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-        filter: alpha(opacity=50);
-        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-        -moz-transition: opacity 0.35s, -moz-transform 0.35s;
-        -o-transition: opacity 0.35s, -o-transform 0.35s;
-        -ms-transition: opacity 0.35s, -ms-transform 0.35s;
-        transition: opacity 0.35s, transform 0.35s;
-        -webkit-transform: translateY(100%);
-        -moz-transform: translateY(100%);
-        -o-transform: translateY(100%);
-        -ms-transform: translateY(100%);
-        transform: translateY(100%);
-      }
-      .figure.effect-hover .figcaption h5 {
-        font-weight: 400;
-        color: #111;
-      }
-      .figure.effect-hover .figcaption p {
-        color: #555;
-        text-transform: uppercase;
-        font-size: 10px;
-        letter-spacing: 1px;
-        font-weight: 400;
-      }
-      .figure.effect-hover:hover .figcaption {
-        opacity: 1;
-        -ms-filter: none;
-        filter: none;
-        -webkit-transform: translateY(-10px);
-        -moz-transform: translateY(-10px);
-        -o-transform: translateY(-10px);
-        -ms-transform: translateY(-10px);
-        transform: translateY(-10px);
-      }
-      .figure.effect-hover:hover img {
-        -webkit-transform: translateY(10px);
-        -moz-transform: translateY(10px);
-        -o-transform: translateY(10px);
-        -ms-transform: translateY(10px);
-        transform: translateY(10px);
-        opacity: 0.5;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-        filter: alpha(opacity=50);
-      }
-      .call-to-action h5 {
-        color: #777;
-        letter-spacing: 1px;
-        font-weight: 400;
-        font-size: 0.8em;
-      }
-    /*
-     * Portfolio single
-     */
-     .work-detail {
-      color: #777;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-    }
-    .work-detail p {
-      font-size: 13px;
-      padding: 4px 0;
-      margin: 0;
-      border-top: 1px solid rgba(0,0,0,0.05);
-    }
-    .work-detail p:last-child {
-      border-bottom: 1px solid rgba(0,0,0,0.05);
-    }
-  
-  
-    /* ==============================
-       Footer
-       ============================== */
-       footer.page-footer {
-      background-color: #f5f5f5;
-      position: relative;
-      padding-top: 100px;
-      padding-bottom: 60px;
-    }
-    .copy-right a {
-      color: #777;
-      font-size: 12px;
-      letter-spacing: 0.5em;
-    }
-    .copy-right a:hover {
-      text-decoration: underline;
-    }
-    .copy-right p {
-      color: #777;
-      margin-top: 10px;
-      font-size: 12px;
-      font-weight: 300;
-      letter-spacing: 2px;
-    }
-    a.scroll-to-top {
-      position: absolute;
-      bottom: 20px;
-      right: 20px;
-      width: 40px;
-      height: 40px;
-      line-height: 40px;
-      text-align: center;
-      color: rgba(0,0,0,0.2);
-      font-size: 48px;
-    }
-      /* ==============================
-       Portfolio page
-       ============================== */
-       .overlay-left,
-       .overlay-right {
-         width: 50%;
-         height: 100%;
-         margin: 0 !important;
-         position: absolute;
-         top: 0;
-       }
-       .overlay-left {
-         left: 0;
-         background: transparent;
-       }
-       .overlay-left div,
-       .overlay-left h1 {
-         color: #777;
-       }
-       .overlay-right {
-         right: 0;
-         background: transparent;
-         color: #fff;
-       }
-       .btn-scroll-alt:before,
-       .btn-scroll-alt:after {
-         border-bottom: 1px solid #777;
-         border-right: 1px solid #fff;
-       }
       /* ==============================
       Intro page
        ============================== */
